@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servicio Técnico Bermúdez</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span>Servicio Técnico</span> <span class="highlight">Bermúdez</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h1>Soluciones Tecnológicas 24/7</h1>
+    <p>Reparación, armado de computadoras y configuración de redes WiFi</p>
+    <a href="#servicios" class="btn">Ver Servicios</a>
+  </section>
+
+  <section id="servicios" class="section">
+    <h2>Nuestros Servicios</h2>
+    <div class="services">
+      <div class="service-card"><a href="#reparacion"><i class="fas fa-laptop"></i><h3>Reparación</h3></a></div>
+      <div class="service-card"><a href="#armado"><i class="fas fa-cogs"></i><h3>Armado de PCs</h3></a></div>
+      <div class="service-card"><a href="#mantenimiento"><i class="fas fa-tools"></i><h3>Mantenimiento</h3></a></div>
+      <div class="service-card"><a href="#redes"><i class="fas fa-wifi"></i><h3>Redes WiFi</h3></a></div>
+      <div class="service-card"><a href="#asistencia"><i class="fas fa-headset"></i><h3>Asistencia Remota</h3></a></div>
+    </div>
+  </section>
+
+  <section id="reparacion" class="section">
+    <h3>Reparación de Computadoras</h3>
+    <p>Servicio técnico para laptops y PCs: diagnóstico, cambio de piezas, corrección de fallas del sistema.</p>
+  </section>
+
+  <section id="armado" class="section">
+    <h3>Armado de Computadoras</h3>
+    <p>Diseño y ensamblaje de equipos personalizados según tus necesidades de trabajo o gaming.</p>
+  </section>
+
+  <section id="mantenimiento" class="section">
+    <h3>Mantenimiento</h3>
+    <p>Limpieza física y mantenimiento preventivo/correctivo para mejorar el rendimiento de tu equipo.</p>
+  </section>
+
+  <section id="redes" class="section">
+    <h3>Redes WiFi</h3>
+    <p>Configuración, optimización y solución de problemas de redes inalámbricas para hogares y negocios.</p>
+  </section>
+
+  <section id="asistencia" class="section">
+    <h3>Asistencia Remota</h3>
+    <p>Soporte técnico a distancia para resolver tus problemas sin necesidad de visitas presenciales.</p>
+  </section>
+
+  <section id="contacto" class="section">
+    <h2>Contacto</h2>
+    <form action="https://formsubmit.co/danixvc12@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Tu Nombre" required />
+      <input type="email" name="email" placeholder="Tu Correo" required />
+      <textarea name="message" rows="4" placeholder="Escribe tu mensaje..." required></textarea>
+      <button type="submit">Enviar Mensaje</button>
+    </form>
+    <p>O contáctanos por WhatsApp:</p>
+    <a href="https://wa.me/59172096790" target="_blank" class="whatsapp-btn">
+      <i class="fab fa-whatsapp"></i> Enviar mensaje
+    </a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Servicio Técnico Bermúdez. Todos los derechos reservados.</p>
+  </footer>
+
+  <div class="whatsapp-button">
+    <a href="https://wa.me/59172096790" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+</body>
+</html>
