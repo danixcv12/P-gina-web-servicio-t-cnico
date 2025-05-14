@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -5,10 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Servicio Técnico Bermúdez</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
   <header>
-    <div class="logo">Servicio Técnico Bermúdez</div>
+    <div class="logo">
+      <span>Servicio Técnico</span> <span class="highlight">Bermúdez</span>
+    </div>
     <nav>
       <ul>
         <li><a href="#inicio">Inicio</a></li>
@@ -21,28 +25,57 @@
   <section id="inicio" class="hero">
     <h1>Soluciones Tecnológicas 24/7</h1>
     <p>Reparación, armado de computadoras y configuración de redes WiFi</p>
+    <a href="#servicios" class="btn">Ver Servicios</a>
   </section>
 
   <section id="servicios" class="section">
     <h2>Nuestros Servicios</h2>
-    <ul>
-      <li>Reparación de computadoras portátiles y de escritorio</li>
-      <li>Armado personalizado de PCs</li>
-      <li>Mantenimiento preventivo y correctivo</li>
-      <li>Instalación y configuración de redes WiFi</li>
-      <li>Asistencia técnica remota</li>
-    </ul>
+    <div class="services">
+      <div class="service-card">
+        <i class="fas fa-laptop"></i>
+        <h3>Reparación de Computadoras</h3>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-cogs"></i>
+        <h3>Armado de PCs</h3>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-tools"></i>
+        <h3>Mantenimiento</h3>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-wifi"></i>
+        <h3>Redes WiFi</h3>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-headset"></i>
+        <h3>Asistencia Remota</h3>
+      </div>
+    </div>
   </section>
 
   <section id="contacto" class="section">
     <h2>Contacto</h2>
-    <p>Teléfono: <a href="tel:+59172096790">72096790</a></p>
-    <p>Email: <a href="mailto:danixvc12@gmail.com">danixvc12@gmail.com</a></p>
-    <p>Atención: 24 horas, los 7 días de la semana</p>
+    <form action="https://formsubmit.co/danixvc12@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Tu Nombre" required />
+      <input type="email" name="email" placeholder="Tu Correo" required />
+      <textarea name="message" rows="4" placeholder="Escribe tu mensaje..." required></textarea>
+      <button type="submit">Enviar Mensaje</button>
+    </form>
+    <p>O contáctanos por WhatsApp:</p>
+    <a href="https://wa.me/59172096790" target="_blank" class="whatsapp-btn">
+      <i class="fab fa-whatsapp"></i> Enviar mensaje
+    </a>
   </section>
 
   <footer>
     <p>&copy; 2025 Servicio Técnico Bermúdez. Todos los derechos reservados.</p>
   </footer>
+
+  <div class="whatsapp-button">
+    <a href="https://wa.me/59172096790" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
 </body>
 </html>
